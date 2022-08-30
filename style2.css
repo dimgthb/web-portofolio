@@ -1,0 +1,54 @@
+body {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+nav {
+  background-color: lightslategray;
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.atas {
+  flex-grow: 1;
+  width: 50%;
+}
+.menu {
+  flex-grow: 1;
+  width: 50%;
+}
+nav .logo {
+  background-color: rgb(145, 255, 0);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url("logo DP2.jpg");
+  justify-content: left;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  font-weight: bold;
+  color: red;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  float: right;
+  position: sticky;
+}
+
+main {
+  height: 87%;
+}
+footer {
+  background-color: chocolate;
+  height: 5%;
+}
